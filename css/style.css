@@ -1,0 +1,74 @@
+p{
+    font-size:18px;
+
+}
+.title{
+    color:cyan;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    font-family:sans-serif;
+}
+p, ul ,ol{
+    line-height: 1.8;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #161bf2;
+}
+a:hover, a :active {
+    text-decoration: none;
+    color:yellow;
+}
+
+.header {
+    background-color: #ebebeb;
+}
+.header .nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    margin: 0 20px 0;
+    list-style-type: none;
+}
+.title{
+    margin: 0 0 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:256px 0;
+    font-size: 128px;
+    text-align: center;
+    color: #dbd141;
+}
+.title.index{
+    background-image: url(../images/index-hero.jpg);
+    
+}
+.title.menu{
+    background-image: url(../images/menu-hero.jpg);
+}
+
+.main{
+    max-width: 840px;
+    margin: 0 auto 128px;
+
+}
+.main h2{
+    border-bottom: solid 2px #BD15E8;
+    font-size: 20px;
+}
+.main .section{
+    margin-bottom: 64px;
+}
+.main ul{
+    padding-left: 16px;
+}
+
+.footer p{
+    text-align: center;
+}
+
