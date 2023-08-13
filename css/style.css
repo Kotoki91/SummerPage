@@ -58,7 +58,7 @@ a:hover, a :active {
 
 }
 .main h2{
-    border-bottom: solid 2px #BD15E8;
+    border-bottom: solid 2px cyan;
     font-size: 20px;
 }
 .main .section{
@@ -70,5 +70,22 @@ a:hover, a :active {
 
 .footer p{
     text-align: center;
+}
+
+.history{
+    width: 100%;
+   border: 1px solid; 
+   border-collapse: collapse;
+   
+   
+}
+.history th, .history td {
+    padding: 16px;
+    border: 1px solid;
+
+}
+.history .point{
+    color:blue;
+    font-weight:bold;
 }
 
