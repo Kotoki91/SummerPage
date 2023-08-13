@@ -89,3 +89,16 @@ a:hover, a :active {
     font-weight:bold;
 }
 
+/* コーヒーメニュー */
+.items{
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:16px;
+}
+.items img{
+    display:block;
+    width: 100%;
+}
+.items p{
+    margin-bottom:0;
+}
